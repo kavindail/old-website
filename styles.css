@@ -1,0 +1,522 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+
+    font-family:'Poppins', sans-serif;
+}
+
+
+.wrapper{
+    background: linear-gradient(#1a191d 10%,#0d2458 , #1a191d );
+width: 100%;
+height: 103vh;
+
+
+
+}
+
+
+.two{
+    height:95vh;
+   
+    
+}
+
+
+.fa-github{
+color:white;
+position: absolute;
+font-size: 30px;
+top: 60vh;
+left: 25vh;
+
+
+
+}
+
+.fa-linkedin{
+    color:white;
+    position: absolute;
+    font-size: 30px;
+    top: 60vh;
+    left: 31vh;
+    
+    
+    
+    }
+
+ 
+    
+
+    .fa-envelope{
+        color:white;
+        position: absolute;
+        font-size: 30px;
+        top: 60vh;
+        left: 37vh;
+        
+        
+        
+        }
+    
+    
+
+        .fa-discord{
+            color:white;
+            position: absolute;
+            font-size: 30px;
+            top: 60vh;
+            left: 43vh;
+            
+            
+            
+            }
+        
+        
+.two img {
+    
+        width: 15%;  
+        height: auto;
+          
+   margin-left: 6em;
+        margin-bottom: 12em;  
+        
+        
+  }
+
+  .two h1 {
+    color:white;
+    position: absolute;
+    font-size: 40px;
+    top: 47vh;
+    left: 25vh;
+  }
+
+  .two p {
+    color:white;
+    position: absolute;
+    font-size: 20px;
+    top: 54vh;
+    left: 24.5vh;
+
+  }
+
+
+.three{
+    height:90vh;
+ background:linear-gradient(#1a191d , #1a191d ) ;
+}
+
+.four{
+    background-color:#1a191d;
+    height:120vh;
+    
+}
+
+.four h1{
+    color:white;
+    font-size: 80px;
+    font-weight: 100000px;
+    position: absolute;
+    
+    top: 0vh;
+    left: 70vh;
+}
+
+.three h1{
+    color:white;
+    font-size: 80px;
+    font-weight: 100000px;
+    position: absolute;
+    
+    top: 5vh;
+    left: 68vh;
+}
+
+
+#box {
+    position:absolute;
+    top:14vw;
+    left:12.6vw;
+    background:linear-gradient(#1a191d) ;
+    width: 400px;
+    height:330px;
+    border: 2px solid white;
+    padding: 70px;
+    margin: 0px;
+    
+
+
+ 
+  
+ 
+  }
+  
+#box1 {
+    position:absolute;
+    top:14vw;
+    left:36vw;
+    background:linear-gradient(#1a191d) ;
+    width: 400px;
+    height:330px;
+    border: 2px solid white;
+    padding: 70px;
+    margin: 0px;
+
+
+ 
+  
+ 
+  }
+  
+#box2 {
+    position:absolute;
+    top:14vw;
+    left:59.4vw;
+    background:linear-gradient(#1a191d) ;
+    width: 400px;
+    height:330px;
+    border: 2px solid white;
+    padding: 70px;
+    margin: 0px;
+
+
+ 
+  
+ 
+  }
+
+
+
+
+  .underline--magical {
+    background-image: linear-gradient(120deg, #ee0cea 0%,#e71c85 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 80%;
+    transition: background-size 0.25s ease-in;
+
+    
+      
+    
+  }
+  .underline--magical2 {
+    background-image: linear-gradient(120deg, #00ff66 0%, #00ff66 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 80%;
+    transition: background-size 0.25s ease-in;
+
+    
+      
+    
+  }
+  .underline--magical3 {
+    background-image: linear-gradient(120deg, #ffaa00 0%,#ffaa00 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 80%;
+    transition: background-size 0.25s ease-in;
+
+    
+      
+    
+  }
+
+
+ #box #first{
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    
+    top: 4vh;
+    left: 7vh;
+}
+
+#box #first .fa-react{
+    font-size:60px;
+    position: absolute;
+    left: 26vh;
+}
+
+ #box li{
+    list-style:none;
+    margin-left: 20px;
+    color:white;
+    font-size: 20px;
+}
+#box1 li{
+    list-style:none;
+    margin-left: 20px;
+    color:white;
+    font-size: 20px;
+}
+#box2 li{
+    list-style:none;
+    margin-left: 20px;
+    color:white;
+    font-size: 20px;
+}
+
+
+#box1 #second{
+    color:white;
+    font-size: 40px;
+    
+    position: absolute;
+    
+    top: 4vh;
+    left: 7vh;
+}
+
+#box1 #second .fa-java{
+    font-size:60px;
+    position: absolute;
+    left: 27vh;
+
+}
+
+#box2 #third{
+    color:white;
+    font-size: 40px;
+    position: absolute;
+    
+    top: 4vh;
+    left: 4vh;
+}
+
+
+
+#box2 #third .fa-computer{
+    font-size:50px;
+    position: absolute;
+    left: 33vh;
+}
+
+
+body{
+    min-height:100vh;
+ 
+}
+ section {
+  position:relative;
+
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100vh;
+
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+}
+
+.one{
+ 
+      
+   
+      
+    height:5vh;
+  
+}
+
+.one .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+
+    letter-spacing: 2px;
+   
+}
+.one ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one ul li{
+        list-style:none;
+        margin-left: 20px;
+    }
+    .one ul li a{
+        text-decoration: none;
+        padding: 6px 15px;
+        color:#fff;
+        border-radius: 20px;
+    }
+    .one ul li a:hover,   
+     
+    .one ul li a.active
+     {
+
+        background-color: #ffff;
+        color: #2b1055
+    }
+
+.one p {
+    color:white;
+    font-style: italic;
+    position: absolute;
+    left: 80vh;
+    top:40vh;
+    font-size: 40px;
+}
+ #quote{
+    position: absolute;
+    left: 80vh;
+    top:55vh;
+    font-size: 30px;
+    color:white;
+}
+    
+
+
+#boxV2   {
+    background:linear-gradient(#1a191d) ;
+    width: 450px;
+    height:580px;
+    border: 0px solid white;
+    padding: 5px;
+    margin: 5px;
+
+    position:absolute; 
+top:12vw; 
+left:12vw; 
+
+color:white;
+  
+}
+
+
+
+#boxV2 img{
+    max-width:440px;
+    height:800px;
+}
+
+#boxV3   {
+    background:linear-gradient(#1a191d) ;
+    width: 450px;
+    height:580px;
+    border: 0px solid white;
+    padding: 5px;
+    margin: 5px;
+
+    position:absolute; 
+top:12vw; 
+left:37.5vw; 
+color:white;
+  
+}
+
+#boxV3 img{
+    max-width:440px;
+    height:800px;
+}
+
+
+#boxV4   {
+    
+    width: 450px;
+    height:580px;
+    border: 0px solid white;
+    padding: 5px;
+    margin: 5px;
+
+    position:absolute; 
+top:12vw; 
+left:63vw; 
+color:white;
+  
+}
+
+#boxV4 img{
+    max-width:440px;
+    height:800px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.newsCard {
+    position: absolute;
+    top:0vw;
+    width: 400px;
+    height: 600px;
+ 
+    background-color: #fff;
+    color:#fff;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .newsCaption {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    opacity: .6;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background:linear-gradient(#1a191d 10%,#0d2458 ) ;
+    padding: 15px;
+    -webkit-transform: translateY(80%);
+            transform: translateY(80%);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition: opacity 0.1s 0.3s, -webkit-transform 0.4s;
+    transition: opacity 0.1s 0.3s, -webkit-transform 0.4s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s, -webkit-transform 0.4s;
+  }
+  
+  .newsCaption-title {
+    margin-top: 0px;
+  }
+  
+  .newsCaption-content {
+    margin: 0;
+  }
+  
+  .newsCaption-link {
+    color: #fff;
+    text-decoration: underline;
+    opacity: .8;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+    -webkit-transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+            transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+  }
+  .newsCaption-link:hover {
+    opacity: 0.65;
+  }
+  
+  .news-Slide-up:hover .newsCaption {
+    opacity: .6;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.4s;
+    transition: opacity 0.1s, -webkit-transform 0.4s;
+    transition: transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s;
+  }
+  
+
