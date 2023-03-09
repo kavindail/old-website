@@ -1,6 +1,9 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 *{
+    
     margin:0;
     padding:0;
     border:0;
@@ -8,12 +11,12 @@
     font-size: 100%;
 
 
-    font-family:'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 
 .wrapper{
-    background: linear-gradient(#1a191d 10%,#0d2458 , #1a191d 90%);
+    background: linear-gradient(#1a191d 10%,#0d2458 , #1a191d 70%);
 width: 100%;
 height: 950px;
 
@@ -23,7 +26,7 @@ height: 950px;
 
 
 .two{
-    height:700px;
+    height:650px;
    
     
 }
@@ -109,14 +112,14 @@ left: 210px;
 
 
 .three{
-    height:700px;
+    height:550px;
     width:100%;
  background:linear-gradient(#1a191d,#1a191d) ; 
 }
 
 .four{
     background:linear-gradient(#1a191d,#1a191d);
-    height:700px;
+    height:800px;
     width:100%;
     
 }
@@ -198,7 +201,7 @@ left: 210px;
 
 
   .underline--magical {
-    background-image: linear-gradient(120deg, #ee0cea 0%,#e71c85 100%);
+    background-image: linear-gradient(120deg, #f53100 0%,#e51810 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 80%;
@@ -209,7 +212,7 @@ left: 210px;
     
   }
   .underline--magical2 {
-    background-image: linear-gradient(120deg, #00ff66 0%, #00ff66 100%);
+    background-image: linear-gradient(120deg, #5500ff 0%, #4c00ff 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 80%;
@@ -220,7 +223,7 @@ left: 210px;
     
   }
   .underline--magical3 {
-    background-image: linear-gradient(120deg, #ffaa00 0%,#ffaa00 100%);
+    background-image: linear-gradient(120deg, #ee00fb 0%,#ff07fbe3 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 80%;
@@ -234,17 +237,18 @@ left: 210px;
 
  #box #first{
     color:white;
-    font-size: 40px;
+    font-size: 33px;
     position: absolute;
     
-    top: 4vh;
-    left: 8vh;
+    top: 20px;
+    left: 60px;
 }
 
 #box #first .fa-react{
     font-size:60px;
     position: absolute;
-    left: 28vh;
+    top:10px;
+    left: 220px;
 }
 
  #box li{
@@ -269,28 +273,28 @@ left: 210px;
 
 #box1 #second{
     color:white;
-    font-size: 40px;
-    
+    font-size: 33px;
     position: absolute;
     
-    top: 4vh;
-    left: 7vh;
+    top: 20px;
+    left: 60px;
 }
 
 #box1 #second .fa-java{
     font-size:60px;
     position: absolute;
-    left: 27vh;
+    top:0px;
+    left: 250px;
 
 }
 
 #box2 #third{
     color:white;
-    font-size: 40px;
+    font-size: 33px;
     position: absolute;
     
-    top: 4vh;
-    left: 4vh;
+    top: 20px;
+    left: 60px;
 }
 
 
@@ -298,7 +302,8 @@ left: 210px;
 #box2 #third .fa-computer{
     font-size:50px;
     position: absolute;
-    left: 36vh;
+    top:10px;
+    left: 205px;
 }
 
 
@@ -418,7 +423,7 @@ color:white;
 }
 
 #boxV3 img{
-    width:26.5vw;
+    max-width:100%;
     height:40vw;
 }
 
@@ -439,8 +444,8 @@ color:white;
 }
 
 #boxV4 img{
-    max-width:440px;
-    height:800px;
+    width:400px;
+    height:600px;
     
 }
 
