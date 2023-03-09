@@ -1,6 +1,10 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 
 *{
     
@@ -10,8 +14,7 @@
     list-style: none;
     font-size: 100%;
 
-
-font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -88,7 +91,7 @@ left: 210px;
         height: auto;     
 
         position: absolute;
-        top:158px;
+        top:155px;
         left:198px;          
         
   }
@@ -98,7 +101,7 @@ left: 210px;
     position: absolute;
     font-size: 40px;
     top: 355px;
-    left: 210px;
+    left: 219px;
   }
 
   .two p {
@@ -106,7 +109,7 @@ left: 210px;
     position: absolute;
     font-size: 20px;
     top: 405px;
-    left: 206px;
+    left: 218px;
 
   }
 
@@ -294,7 +297,7 @@ left: 210px;
     position: absolute;
     
     top: 20px;
-    left: 60px;
+    left: 68px;
 }
 
 
@@ -349,9 +352,10 @@ body{
 
 .one ul li{
         list-style:none;
-        margin-left: 30px;
+        margin-left: 40px;
     }
     .one ul li a{
+        font-size:23px;
         text-decoration: none;
         padding: 6px 15px;
         color:#fff;
