@@ -13,6 +13,7 @@
     border:0;
     list-style: none;
     font-size: 100%;
+    max-width: 100%;
 
 font-family: 'Roboto', sans-serif;
 }
@@ -22,6 +23,7 @@ font-family: 'Roboto', sans-serif;
     background: linear-gradient(#1a191d 10%,#0d2458 , #1a191d 70%);
 width: 100%;
 height: 950px;
+max-width: 100%;
 
 
 
@@ -30,7 +32,7 @@ height: 950px;
 
 .two{
     height:650px;
-   
+    max-width: 100%;
     
 }
 
@@ -118,6 +120,7 @@ left: 210px;
     height:550px;
     width:100%;
  background:linear-gradient(#1a191d,#1a191d) ; 
+ max-width: 100%;
 }
 
 .four{
@@ -237,6 +240,14 @@ left: 210px;
     
   }
 
+  .four h2{
+    position: absolute;
+    top:100px;
+    left:420px;
+    color:white;
+    font-size: 80px;
+  }
+
 
  #box #first{
     color:white;
@@ -312,6 +323,7 @@ left: 210px;
 
 body{
     min-height:100vh;
+    max-width: 100%;
  
 }
  section {
@@ -320,6 +332,7 @@ body{
     top: 0;
     left: 0;
     width:100%;
+    max-width: 100%;
     height:100vh;
 
     padding: 30px 100px;
@@ -332,7 +345,7 @@ body{
 
 .one{
    height:20px;
-  
+   max-width: 100%;
 }
 
 .one .logo{
@@ -389,6 +402,7 @@ body{
 
 
 #boxV2   {
+    max-width: 100%;
     background:linear-gradient(#1a191d) ;
     width: 450px;
     height:580px;
@@ -412,6 +426,7 @@ color:white;
 }
 
 #boxV3   {
+    max-width: 100%;
     background:linear-gradient(#1a191d) ;
     width: 450px;
     height:580px;
@@ -464,6 +479,7 @@ color:white;
 
 
 .newsCard {
+    max-width: 100%;
     position: absolute;
     top:0vw;
     width: 400px;
@@ -476,6 +492,7 @@ color:white;
   }
   
   .newsCaption {
+    max-width: 100%;
     position: absolute;
     top: auto;
     bottom: 0;
