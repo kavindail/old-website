@@ -24,6 +24,46 @@ font-family: 'Roboto', sans-serif;
 }
 
 
+@media only screen and (max-width: 600px ) {
+    
+    
+ 
+        .one .logo{
+            font-size: 1mm;
+            
+                
+        }
+ 
+        
+        .one li{
+            display:none;
+        }
+        .one ul{
+            display:none;
+        }
+
+.two #hidden{
+    font-size: 100px;
+    color:white;
+}
+
+        .two {
+display:none;
+        }
+            
+
+        
+        
+        .three{
+         display: none;
+        }
+        .four{
+            display:none;
+        }
+  }
+  
+
+
 .wrapper{
     background: linear-gradient(#1a191d 10%,#0d2458 , #1a191d 70%);
 width: 100%;
@@ -40,6 +80,10 @@ max-width: 100%;
     max-width: 100%;
  
 }
+.two #hidden{
+    font-size: 0px;
+    color: #fff;
+}
 
 
 .fa-github{
@@ -52,6 +96,11 @@ left: 210px;
 
 
 }
+.one #hidden{
+    font-size:1px;
+    color:white;
+}
+
 
 .fa-linkedin{
     color:white;
