@@ -376,12 +376,14 @@ body{
     justify-content: center;
     align-items: center;
     max-width: 100%;
+   
 
 }
 
 .one ul li{
         list-style:none;
         margin-left: 40px;
+        margin-right: 25px;
        
     }
     .one ul li a{
