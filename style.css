@@ -195,7 +195,7 @@ justify-content: center;
 
 	font-family: 'Roboto Condensed', sans-serif;
 font-size: 5em;
-
+margin-left: 10%;
 }
  
 #about p{
@@ -207,7 +207,7 @@ padding: 50px;
     width: 600px;
     height:250px;
     border: 0px solid white;
- 
+	margin-left: 10%;
 
 	font-size: 1.3em;
     
