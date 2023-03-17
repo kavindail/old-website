@@ -12,13 +12,11 @@
         max-width: 100%;
         font-family: 'Roboto', sans-serif;
 
-     
-        
 }
 
 #container {
     display:flex;
- 
+	
 
 }
 
@@ -203,7 +201,7 @@ margin-left: 10%;
 	
 justify-content: center;
 align-items: center;
-padding: 50px;
+
     width: 600px;
     height:250px;
     border: 0px solid white;
@@ -228,7 +226,8 @@ padding: 50px;
 
 
 display: flex;
-	overflow: hidden;
+flex-direction: column;
+overflow:hidden;
 	justify-content: center;
 	align-items: center;
 
@@ -241,11 +240,8 @@ display: flex;
 
  }
  
- /* Change color of each text in sphere on hover   */
- .tagcloud--item:hover {
-	display:flex;
-   color: #1500ce ;
- }
+
+
 /**
 
  PROJECTS CODE
