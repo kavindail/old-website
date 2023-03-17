@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src = "scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+
+
+</head>
+
+
+<body>
+    <div class = "container">
+
+
+
+
+
+        <div id = "nav">
+            
+            <a href="#" target="_blank" class="logo">Kavin Dail</a>
+
+            <div class = "ul">
+                <div class = "li"><a href="#" target="_blank">Home</a></div>
+                <div class = "li"><a href="#" target="_blank">About</a></div>
+                <div class = "li"><a href="#" target="_blank">Projects</a></div>
+                <div class = "li"><a href="#" target="_blank">Contact</a></div>
+
+            </div>
+
+            
+            
+        </div>
+
+  
+
+        <div class="sticky-line">
+
+
+            </div>
+            
+            <div id = social-media>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+     
+
+
+
+
+
+        <div id = "landing">
+
+            <div>
+                <br>
+                <br>
+                <br>
+                
+
+                <p id = "small">Hi, my name is </p> 
+                <p>Kavin Dail,</p>
+                <p id = "opaque">Full Stack Developer</p>
+                <br>
+                <div class="btn">
+                    <svg>
+                      <rect x="0" y="0" fill="none" width="210" height="60" />
+                    </svg>
+                    Contact Me
+                  </div>
+                  
+            </div>
+
+        </div>
+
+
+
+
+
+        
+<div id = "about">
+ 
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+   <h1>My Skills</h1>
+
+   <p>Since Adobe Flash was a complete innovation, alongside with CSS 1.0 and HTML 4.01 as standards of the current web I've been passionate about web.
+    <br>
+    <br>
+    For over a decade I had many opportunities to work in a vast spectrum of web technologies what let me gather a significant amount of various experience. Working for companies and individuals around the globe I met and learnt from amazing and ambitious people.
+<br>
+<br>
+I currently work remotely with a selected freelance client base being open for new opportunities.
+
+
+
+
+   </p>
+
+
+</div>
+
+    <!-- Including the TagCloud.js script CDN in the document    -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+    
+    <script>
+        const Texts = [
+            'HTML', 'CSS', 'JAVASCRIPT',
+            'SQL', 'ThreeJS', 'REACT',
+            'PYTHON', 'SASS',
+            'JQUERY', 'NODEJS',
+            'EXPRESS', 'DATA SCIENCE', 'GIT', 'JAVA'
+        ];
+
+        var tagCloud = TagCloud('#about', Texts, {
+
+            // Sphere radius in px
+            radius: 330,
+
+            // animation speed
+            // slow, normal, fast
+            maxSpeed: 'normal',
+            initSpeed: 'fast',
+
+            // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
+            direction: 135,
+
+            // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+            keep: true
+
+        });
+
+        // Giving color to each text in sphere
+        var color = '#fff ';
+        document.querySelector('#about').style.color = color;
+    </script>
+
+</div>
+
+    
+
+
+        <div id = "projects">Projects</div>
+
+        <div id = "contact">Contact</div>
+
+    </div>
+</body>
+
+
+</html>
