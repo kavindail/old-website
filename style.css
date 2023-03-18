@@ -249,12 +249,23 @@ overflow:hidden;
 
 */
 #projects{
-    height:90vw;
-    background-color:grey;
+    height:80vw;
+    background-color:#1a191d;
+}
+#projects h1{
+	
+	display: flex;
+align-items: top;
+justify-content: center;
+color:white;
+	font-family: 'Roboto Condensed', sans-serif;
+font-size: 5em;
+padding-bottom: 0.5em;
+
 }
 /**
 
-CONTACT CODE
+CONTACT CODE`
 
 */
 #contact{
@@ -350,7 +361,7 @@ CODE PEN COPY PASTED CODE
 	color: #fff;
 
 
-	border-radius: 35%;
+	border-radius: 50%;
 	position: relative;
 	overflow: hidden;
 	transition: transform 0.5s;
@@ -372,7 +383,7 @@ CODE PEN COPY PASTED CODE
 	top: -40px;
 	left: 0;
 	background: #000;
-	background: linear-gradient(-50deg, #3e3e3e, #030f8d);
+	background: linear-gradient(-50deg, #3e3e3e, #3e3e3e);
 	position: absolute;
 	transition: 0.3s;
   }
@@ -383,3 +394,137 @@ CODE PEN COPY PASTED CODE
   
 
   
+
+
+
+
+
+
+  /**------------------------
+  */
+  .showcase {
+
+	position: relative;
+	width: 80%;
+	height: 17em;
+	
+	overflow: hidden;
+
+  }
+  .showcase h2{
+	color:white;
+  }
+  
+  .thumbnail {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 300px;
+	z-index: 1;
+	background: #293853;
+	background-position: 50% 50%;
+	background-size: cover;
+	transition: right 250ms ease, left 250ms ease;
+  }
+  
+  .thumbnail--awesome {
+	background-image: url("https://news.artnet.com/app/news-upload/2016/03/google-dream-starry-night-1024x811.jpg");
+  }
+  .thumbnail--awesome2{
+	background-image:url("https://camo.githubusercontent.com/8f8230d25dcf3934124d3600e6a603f97c917a3c8df30733e97411842e4cec17/68747470733a2f2f797564616b616e2e636f6d2f696d67732f6769746875622f707572656d617a652e706e67");
+  }
+
+  .thumbnail--awesome3{
+	background-image:url("  https://i.pinimg.com/originals/78/99/86/7899868e862cdfced007e7669518b11d.jpg");
+  }
+  .thumbnail__overlay {
+	position: relative;
+	padding-top: 8em;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	opacity: 0;
+	transition: opacity 250ms ease;
+	
+  }
+  
+  .desc {
+	position: absolute;
+	width: 300px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	padding: 20px;
+	z-index: 2;
+	background: #2e2d33;
+	text-align: center;
+	transition: background 250ms ease, color 250ms, width 250ms ease, padding 250ms ease;
+  }
+  .desc:after {
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 50%;
+	left: -20px;
+	margin-top: -10px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: transparent #fff transparent transparent;
+	content: "";
+	transition: border-color 250ms;
+  }
+  
+  .showcase:hover .thumbnail {
+	right: 325px;
+	left: -25px;
+  }
+  .showcase:hover .thumbnail__overlay {
+	opacity: 1;
+  }
+  .showcase:hover .desc {
+	width: 350px;
+	padding-left: 45px;
+	padding-right: 45px;
+	background: #202426;
+	color: #fff;
+  }
+  .showcase:hover .desc:after {
+	border-color: transparent #202426 transparent transparent;
+  }
+  
+  .showcase--inverted .thumbnail {
+	right: 0;
+	left: 300px;
+  }
+  
+  .showcase--inverted .desc {
+	left: 0;
+	right: auto;
+  }
+  .showcase--inverted .desc:after {
+	left: auto;
+	right: -20px;
+	border-color: transparent transparent transparent #fff;
+  }
+  
+  .showcase--inverted:hover .thumbnail {
+	left: 325px;
+	right: -25px;
+  }
+  .showcase--inverted:hover .desc:after {
+	border-color: transparent transparent transparent #202426;
+  }
+  
+  #projects .btn {
+	padding: 0em 2em;
+	border: 0.15em solid #fff;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	transition: background 250ms;
+  }
+  #projects  .btn:hover {
+	background: rgba(0, 0, 0, 0.6);
+  }
