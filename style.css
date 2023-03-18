@@ -320,77 +320,115 @@ CODE PEN COPY PASTED CODE
 
   
   
+/** NAV BAR CODE
+*/
+
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+   
+    position: fixed;
+    bottom:0;
+    flex-direction: column;
+    margin-left:2em;
+    margin-bottom:2em;
+  }
+ 
+  .wrapper .icon {
+    position: relative;
+    background: #4e4c4c;
+    color:white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 7px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+ 
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 7px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+   .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+
+
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+ 
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+
+
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+ 
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(255, 255, 255, 0.1);
+  }
+ 
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #0e3b75;
+    color: #ffffff;
+  }
+ 
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1b2325;
+    color: #ffffff;
+  }
+ 
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #4056d6;
+    color: #ffffff;
+  }
+ 
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background: #CD201F;
+    color: #ffffff;
+  }
+
 
   
 
 
 
 
-  .sticky-line {
-	display:flex;
-
-	position: fixed;  /* makes the line sticky */
-	top: 85vh;
-	bottom: 0;
-	width: 1px;  /* sets the width of the line */
-	background-color: WHITE;  /* sets the color of the line */
-	left: 3vw; /* sets the position of the line */
-  }
-
-  #social-media{
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	position: fixed;
-	top: 58vh;
-	left: 1.8vw;
-
-}
-  #social-media a {
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-
-
-	width: 39px;
-	height: 39px;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-
-
-	border-radius: 50%;
-	position: relative;
-	overflow: hidden;
-	transition: transform 0.5s;
-  }
-  
-  #social-media a .fab {
-	font-size: 16px;	display:flex;
-
-	position: relative;
-	z-index: 10;
-	transition: color 0.5s;
-  }
-  
-  #social-media a::after {
-	display:flex;
-	content: '';
-	width: 100%;
-	height: 100%;
-	top: -40px;
-	left: 0;
-	background: #000;
-	background: linear-gradient(-50deg, #3e3e3e, #3e3e3e);
-	position: absolute;
-	transition: 0.3s;
-  }
-  
-  #social-media a:hover::after {
-	top: 0;
-  }
   
 
   
