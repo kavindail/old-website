@@ -33,15 +33,16 @@
 	}
 	#about h1{
 		margin-right:1em !important;
+		font-size: 4em !important;
 	}
 	#about p{
-		width: 400px !important;
+		width: 80vw !important;
 	
 		height:300px !important;
 	
 		margin-right: 5em !important;
 	
-		font-size: 1.3em !important;
+		font-size: 1.2em !important;
 	}
 
 	.tagcloud{
