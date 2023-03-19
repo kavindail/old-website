@@ -182,7 +182,7 @@
         font-size: 100%;
         max-width: 100%;
         font-family: 'Roboto', sans-serif;
-	
+
 
 }
 
@@ -433,15 +433,6 @@ color:white;
 font-size: 5em;
 padding-bottom: 0.5em;
 
-}
-/**
-
-CONTACT CODE`
-
-*/
-#contact{
-    height:60vw;
-     background-color:bisque;
 }
 
 
@@ -748,6 +739,16 @@ CODE PEN COPY PASTED CODE
 
 
 
+  /**
+
+CONTACT CODE`
+
+*/
+
+#contact{
+	background-color: #1a191d;
+	height:auto;
+}
 
 
 
@@ -755,12 +756,97 @@ CODE PEN COPY PASTED CODE
 
 
 
-  
 
+/* contact from design */
 
+#contact .sec1title {
+  text-align: center;
 
+}
+#contact .sec1title h1 {
+	display: flex;
+	align-items: top;
+	justify-content: center;
+	color: white;
+	
+		font-family: 'Roboto Condensed', sans-serif;
+	font-size: 5em;
 
+}
+#contact .section2 {
+  position: relative;
+  overflow: hidden;
+}
+#contact .section2 .contactform {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    z-index: 99;
+    background: #202426;
+    padding: 30px 40px 70px;
+    box-sizing: border-box;
+}
+#contact .section2 .contactform input.form-fields,
+#contact .section2 .contactform button.form-fields,
+#contact .section2 .contactform textarea.form-fields {
+    padding: 0 0 0 40px;
+    display: block;
+    box-sizing: border-box;
+    width: 350px;
+    font-size: 16px;
+    background: #1a191d;
+    margin: 7px 0;
+    border: 1px solid #3a403f;
+    color: #ffffff;
+    opacity: 0.5;
+    min-height: 45px;
+    text-shadow: none;
+    position: relative;
+}
+#contact .section2 .contactform textarea.form-fields {
+  padding: 8px 40px;
+  resize: none;
+}
+#contact .section2 .contactform button.form-fields.button {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 0;
+  text-transform: uppercase;
 
+}
+#contact .section2 .contactform button.form-fields.button:hover {
+  background: #ffffff;
+  color: #fff;
+  cursor: pointer;
+  opacity: 1;
+}
 
+#contact .section2 .contactform button.form-fields.button i {
+  margin-left:10px;
+}
 
+#contact .section2 .contactform h5 {
+  color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+#contact .section2 .contactform label .cntfrmicn {
+  color: #ffffff;
+    padding: 14px;
+    position: absolute;
+    z-index: 99;
+}
 
+@media only screen and (max-width: 660px) {
+
+  .contmap {
+    height: 475px !important;
+  }
+  #contact .sec1title h1 {
+    font-size: 28px;
+  }
+  #contact .section2 .contactform { padding: 10px; right: 0; width: 100%; }
+  #contact .section2 .contactform input.form-fields, .section2 .contactform button.form-fields, .section2 .contactform textarea.form-fields {
+    width: 100%;
+  }
+}
