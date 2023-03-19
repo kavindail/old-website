@@ -806,12 +806,14 @@ CONTACT CODE`
 #contact .section2 .contactform textarea.form-fields {
   padding: 8px 40px;
   resize: none;
+
 }
 #contact .section2 .contactform button.form-fields.button {
   color: #ffffff;
   font-size: 14px;
   padding: 0;
   text-transform: uppercase;
+
 
 }
 #contact .section2 .contactform button.form-fields.button:hover {
@@ -837,7 +839,7 @@ CONTACT CODE`
     z-index: 99;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 600px) {
 
   .contmap {
     height: 475px !important;
@@ -848,5 +850,8 @@ CONTACT CODE`
   #contact .section2 .contactform { padding: 10px; right: 0; width: 100%; }
   #contact .section2 .contactform input.form-fields, .section2 .contactform button.form-fields, .section2 .contactform textarea.form-fields {
     width: 100%;
+  }
+  .contmap {
+
   }
 }
