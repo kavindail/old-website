@@ -52,10 +52,16 @@
 
 
 	#projects{
-		height:170vh !important;
+		height:auto !important;
 
 	}
-
+	#middleSection{
+		display: none !important;
+	
+	}
+	#ending{
+		height:auto !important;
+	}
 
 
 	.showcase {
@@ -745,113 +751,88 @@ CONTACT CODE`
 
 */
 
-#contact{
+#ending{
+	width:auto;
 	background-color: #1a191d;
-	height:auto;
+
+	color:white;
 }
 
 
 
 
 
+.sparkle use {
+	animation: sparkle 5s linear infinite;
+  }
+  
+  .sparkle use:nth-child(1n) {
+	animation-delay: -0.5s;
+  }
+  
+  .sparkle use:nth-child(2n) {
+	animation-delay: -1s;
+  }
+  
+  .sparkle use:nth-child(3n) {
+	animation-delay: -1.5s;
+  }
+  
+  .sparkle use:nth-child(4n) {
+	animation-delay: -2s;
+  }
+  
+  .sparkle use:nth-child(5n) {
+	animation-delay: -2.5s;
+  }
+  
+  .sparkle use:nth-child(6n) {
+	animation-delay: -3s;
+  }
+  
+  .sparkle use:nth-child(7n) {
+	animation-delay: -3.5s;
+  }
+  
+  .sparkle use:nth-child(8n) {
+	animation-delay: -4s;
+  }
+  
+  .sparkle use:nth-child(9n) {
+	animation-delay: -4.5s;
+  }
+  
+  .sparkle use:nth-child(10n) {
+	animation-delay: -5s;
+  }
+  svg {
+	width: 100vw;
+	height: 100vh;
+  }
+  
+  @keyframes sparkle {
+	0%, 80%, 100% {
+	  color: currentcolor;
+	}
+	90% {
+	  color: transparent;
+	}
+  }
 
-
-
-/* contact from design */
-
-#contact .sec1title {
-  text-align: center;
-
-}
-#contact .sec1title h1 {
-	display: flex;
-	align-items: top;
-	justify-content: center;
-	color: white;
+  #middleSection{
+	font-size:5em;
 	
-		font-family: 'Roboto Condensed', sans-serif;
-	font-size: 5em;
 
-}
-#contact .section2 {
-  position: relative;
-  overflow: hidden;
-}
-#contact .section2 .contactform {
-    position: absolute;
-    top: 0;
-    right: 10%;
-    z-index: 99;
-    background: #202426;
-    padding: 30px 40px 70px;
-    box-sizing: border-box;
-}
-#contact .section2 .contactform input.form-fields,
-#contact .section2 .contactform button.form-fields,
-#contact .section2 .contactform textarea.form-fields {
-    padding: 0 0 0 40px;
-    display: block;
-    box-sizing: border-box;
-    width: 350px;
-    font-size: 16px;
-    background: #1a191d;
-    margin: 7px 0;
-    border: 1px solid #3a403f;
-    color: #ffffff;
-    opacity: 0.5;
-    min-height: 45px;
-    text-shadow: none;
-    position: relative;
-}
-#contact .section2 .contactform textarea.form-fields {
-  padding: 8px 40px;
-  resize: none;
-
-}
-#contact .section2 .contactform button.form-fields.button {
-  color: #ffffff;
-  font-size: 14px;
-  padding: 0;
-  text-transform: uppercase;
+display:flex;
+justify-content: center;
+align-items: end;
 
 
-}
-#contact .section2 .contactform button.form-fields.button:hover {
-  background: #ffffff;
-  color: #fff;
-  cursor: pointer;
-  opacity: 1;
-}
 
-#contact .section2 .contactform button.form-fields.button i {
-  margin-left:10px;
-}
 
-#contact .section2 .contactform h5 {
-  color: #ffffff;
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-#contact .section2 .contactform label .cntfrmicn {
-  color: #ffffff;
-    padding: 14px;
-    position: absolute;
-    z-index: 99;
-}
+	
 
-@media only screen and (max-width: 600px) {
 
-  .contmap {
-    height: 475px !important;
+	
   }
-  #contact .sec1title h1 {
-    font-size: 28px;
-  }
-  #contact .section2 .contactform { padding: 10px; right: 0; width: 100%; }
-  #contact .section2 .contactform input.form-fields, .section2 .contactform button.form-fields, .section2 .contactform textarea.form-fields {
-    width: 100%;
-  }
-  .contmap {
-
-  }
-}
+  
