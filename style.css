@@ -7,7 +7,7 @@
 
 @media only screen and (max-width: 600px) {
 	#landing p{
-		margin-left:10%;
+		margin-left:10.1%;
 	}
 	#landing .btn{
 		margin-left:10%;
@@ -255,6 +255,7 @@
 	  .glitch:after {
 		content: attr(data-text);
 		position: absolute;
+		
 		left: 2px;
 		text-shadow: -1px 0 red;
 		top: 0;
