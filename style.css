@@ -367,6 +367,31 @@ a {
 	
 	
 	  }
+
+	  .li {
+		background-image:
+		  linear-gradient(
+		  to bottom,
+		  transparent 0%,
+		  transparent 90%,
+		  #000000 90%,
+		  #000000 100%);
+		background-repeat: no-repeat;
+		background-size: 0% 100%;
+		background-position-x: right;
+		transition: background-size 350ms;
+		padding-bottom: 5px;
+	  }
+	  .li:hover {
+		background-size: 100% 100%;
+		background-position-x: left;
+		opacity: 1;
+	  }
+	  
+	  /* =======================================
+	  The juicy stuff
+	  ======================================= */
+	  
 	
 
 
