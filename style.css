@@ -369,25 +369,7 @@ a {
 	
 	  }
 
-	  .li {
-		background-image:
-		  linear-gradient(
-		  to bottom,
-		  transparent 0%,
-		  transparent 90%,
-		  #000000 90%,
-		  #000000 100%);
-		background-repeat: no-repeat;
-		background-size: 0% 100%;
-		background-position-x: right;
-		transition: background-size 350ms;
-		padding-bottom: 5px;
-	  }
-	  .li:hover {
-		background-size: 100% 100%;
-		background-position-x: left;
-		opacity: 1;
-	  }
+	  
 	  
 	  /* =======================================
 	  The juicy stuff
@@ -430,7 +412,10 @@ NAVBAR CODE
 	padding: 10px 0px;
 	transition: 0.3s;
 	z-index: 100;
+
+	
 }
+
 
 #nav::after {
 	content: "";
@@ -447,6 +432,7 @@ NAVBAR CODE
 
 #nav.sticky {
 	padding: 5px 0px;
+	
 }
 
 #nav.sticky::after {
