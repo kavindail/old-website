@@ -844,9 +844,7 @@ CODE PEN COPY PASTED CODE
 	background-image:url("https://camo.githubusercontent.com/8f8230d25dcf3934124d3600e6a603f97c917a3c8df30733e97411842e4cec17/68747470733a2f2f797564616b616e2e636f6d2f696d67732f6769746875622f707572656d617a652e706e67");
   }
 
-  .thumbnail--awesome3{
-	background-image:url("  https://i.pinimg.com/originals/78/99/86/7899868e862cdfced007e7669518b11d.jpg");
-  }
+
   .thumbnail__overlay {
 	position: relative;
 	padding-top: 8em;
@@ -857,6 +855,11 @@ CODE PEN COPY PASTED CODE
 	transition: opacity 500ms ease;
 	
   }
+  
+  .thumbnail--awesome3{
+	background-image:url("https://i.pinimg.com/originals/78/99/86/7899868e862cdfced007e7669518b11d.jpg" );
+  }
+
   
   .desc {
 	position: absolute;
